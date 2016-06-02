@@ -54,7 +54,7 @@
 
 # HARDCODED VALUES ARE SET HERE
 set flashDrive to "name_of_drive" as text --> use if continuity is needed. Other wise is will prompt.
-set imageDirectory to POSIX file ((system attribute "HOME") & "/imageServices/Services") as alias --> if in home directory repalace last set of quotes with directory. If not in home. replace full string.
+set imageDirectory to POSIX file ((system attribute "HOME") & "Path to directory after /Users/useraccount") as alias --> if in home directory repalace last set of quotes with directory. If not in home. replace full string.
 set userName to "User_Name" --> Admin Username for computer
 set passAuth to "PassWord" --> Admin Password for computer
 
